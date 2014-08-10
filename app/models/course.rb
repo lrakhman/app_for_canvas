@@ -1,13 +1,12 @@
 class Course
 	include HTTParty
-  base_uri 'http://canvas-api.herokuapp.com'
+  base_uri 'canvas-api.herokuapp.com'
+  # these default params are not working
+  # default_params page: @page, access_token: '9be624b4d5206a178fc56921d5bf2c2a'
 
 
-  def self.get_all_courses(page)
-    get("/api/v1/courses?access_token=#{token}&page=#{page}")
+  def self.get_all_courses
+    get("/api/v1/courses?", :query => { page: @page, access_token: '9be624b4d5206a178fc56921d5bf2c2a' })
   end
 
-   def self.token
-    post("/api/v1/tokens")['token']
-  end
 end
