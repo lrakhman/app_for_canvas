@@ -731,3 +731,1157 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 17:55:13 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 17:55:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 18:21:02 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (9.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1228ms (Views: 290.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 18:21:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 18:21:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 18:21:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 18:21:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 18:21:05 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 18:21:05 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 18:21:05 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 18:47:02 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (15.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1393ms (Views: 504.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 18:47:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:04 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 18:47:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:04 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:04 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 18:47:18 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 801ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 18:47:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 18:47:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:19 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:19 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 18:47:36 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 796ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 18:47:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 18:47:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:37 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 18:47:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:00:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (15.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 1277ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/courses_controller.rb:9:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:01:18 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 833ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/courses_controller.rb:11:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:03:46 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 1455ms
+
+ActionView::Template::Error (undefined method `first' for nil:NilClass):
+     5: </div>
+     6: 
+     7: <div class="courses">
+     8: 	<p><%=@courses.first['name']%></p>
+     9: 	<p><%=@courses.last['name']%></p>
+    10: 	<p><%=@link%></p>
+    11: 
+  app/views/courses/index.html.erb:8:in `_app_views_courses_index_html_erb__1266234669272881821_2160716500'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:03:56 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1198ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 19:03:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 19:03:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 19:03:58 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 19:03:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 19:03:58 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 19:03:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 19:03:58 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:04:15 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2079ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 19:04:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 19:04:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 19:04:17 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 19:04:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 19:04:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 19:04:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 19:04:17 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:06:37 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 408ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 19:06:37 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 19:06:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 19:06:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 19:06:37 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 19:06:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 19:06:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 19:06:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:07:08 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 391ms
+
+ActionView::Template::Error (undefined method `first' for nil:NilClass):
+     5: </div>
+     6: 
+     7: <div class="courses">
+     8: 	<p><%=@courses.first['name']%></p>
+     9: 	<p><%=@courses.last['name']%></p>
+    10: 	<p><%=@link%></p>
+    11: 
+  app/views/courses/index.html.erb:8:in `_app_views_courses_index_html_erb__1266234669272881821_2196125760'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:07:44 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 823ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 19:07:45 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 19:07:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 19:07:45 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 19:07:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 19:07:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 19:07:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 19:07:45 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:09:04 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `get_all_courses' for Course:Class):
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:09:17 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:7:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:12:46 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:7:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:12:48 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:7:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:12:56 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:7:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:13:20 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (undefined local variable or method `token' for Course:Class):
+  app/models/course.rb:8:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:13:44 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `post' for #<Course:0x000001024889a8>):
+  app/models/course.rb:12:in `token'
+  app/models/course.rb:8:in `get_all_courses'
+  app/controllers/courses_controller.rb:5:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:14:12 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (undefined local variable or method `new' for #<Course:0x00000101d2fbe8>):
+  app/models/course.rb:12:in `token'
+  app/models/course.rb:8:in `get_all_courses'
+  app/controllers/courses_controller.rb:5:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:14:19 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `post' for #<Course:0x00000105d850f8>):
+  app/models/course.rb:12:in `token'
+  app/models/course.rb:8:in `get_all_courses'
+  app/controllers/courses_controller.rb:5:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:14:37 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `get_all_courses' for #<Course:0x00000105b063b8>):
+  app/controllers/courses_controller.rb:5:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:14:50 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `get_all_courses' for #<Course:0x00000105946be0>):
+  app/controllers/courses_controller.rb:5:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:14:51 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `get_all_courses' for #<Course:0x0000010279f380>):
+  app/controllers/courses_controller.rb:5:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:14:59 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 255ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 19:14:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 19:14:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 19:14:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 19:14:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 19:14:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 19:14:59 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 19:14:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:15:50 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 413ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 19:15:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 19:15:50 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 19:15:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 19:15:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 19:15:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 19:15:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 19:15:50 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:17:31 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 845ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 19:17:32 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 19:17:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 19:17:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 19:17:32 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 19:17:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 19:17:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 19:17:32 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:19:52 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/Users/lanarakhman/app_for_canvas/app/models/course.rb:74: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:20:08 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 843ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 19:20:09 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 19:20:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 19:20:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 19:20:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 19:20:09 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 19:20:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 19:20:09 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:50:27 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 665ms
+
+NoMethodError (undefined method `response_from_api' for Course:Class):
+  app/models/course.rb:22:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:52:55 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+NameError (undefined local variable or method `token' for #<Course:0x00000105ae7c88>):
+  app/models/course.rb:21:in `get_all_courses'
+  app/controllers/courses_controller.rb:5:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:58:29 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:7:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:58:30 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:7:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:59:03 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:7:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 19:59:04 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:7:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 20:00:32 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 908ms
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     5: </div>
+     6: 
+     7: <div class="courses">
+     8: 	<p><%=@course.first['name']%></p>
+     9: 	<p><%=@course.last['name']%></p>
+    10: 	<p><%=@link%></p>
+    11: 
+  app/views/courses/index.html.erb:8:in `[]'
+  app/views/courses/index.html.erb:8:in `_app_views_courses_index_html_erb__1266234669272881821_2163006060'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 20:00:45 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 432ms
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     5: </div>
+     6: 
+     7: <div class="courses">
+     8: 	<p><%=@course.first['name']%></p>
+     9: 	<p><%=@course.last['name']%></p>
+    10: 	<p><%=@link%></p>
+    11: 
+  app/views/courses/index.html.erb:8:in `[]'
+  app/views/courses/index.html.erb:8:in `_app_views_courses_index_html_erb__1266234669272881821_2163006060'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 20:01:54 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 215ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:5:in `get_all_courses'
+  app/controllers/courses_controller.rb:5:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 20:02:14 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 100ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:5:in `get_all_courses'
+  app/controllers/courses_controller.rb:5:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 20:02:16 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 99ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/course.rb:5:in `get_all_courses'
+  app/controllers/courses_controller.rb:5:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 20:03:06 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `get_all_courses' for Course:Class):
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 20:03:39 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (undefined local variable or method `token' for #<Course:0x000001058ee3a0>):
+  app/models/course.rb:6:in `get_all_courses'
+  app/controllers/courses_controller.rb:4:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-09 20:07:01 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 201ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 20:07:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 20:07:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 20:07:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 20:07:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 20:07:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 20:07:02 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 20:07:02 -0500
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-09 20:07:05 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 124ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-09 20:07:09 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 110ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=4" for 127.0.0.1 at 2014-08-09 20:07:12 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"4"}
+  Rendered courses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 110ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-09 20:07:15 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 112ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-09 20:07:16 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 106ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 20:07:17 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 110ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-09 20:07:31 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 114ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-09 20:07:32 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 108ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=4" for 127.0.0.1 at 2014-08-09 20:07:34 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"4"}
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 135ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-09 20:07:36 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 114ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-09 20:07:36 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 110ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 20:07:37 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 110ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-09 20:08:41 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 526ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-09 20:08:42 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 106ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=4" for 127.0.0.1 at 2014-08-09 20:08:43 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"4"}
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 110ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=4" for 127.0.0.1 at 2014-08-09 20:16:48 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"4"}
+  Rendered courses/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 599ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 20:16:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 20:16:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 20:16:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 20:16:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 20:16:49 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 20:16:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 20:16:49 -0500
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-09 21:02:50 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 182ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-09 21:02:52 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 118ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 21:02:53 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 115ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 21:08:15 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 21:08:15 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 21:08:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 21:08:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 21:08:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 21:08:15 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 21:08:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 21:08:15 -0500
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 21:08:16 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 21:08:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 21:08:16 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 21:08:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 21:08:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 21:08:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 21:08:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 21:08:16 -0500
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 21:09:49 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 924ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 21:09:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 21:09:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 21:09:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 21:09:50 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 21:09:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 21:09:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 21:09:50 -0500
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 21:09:51 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 445ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 21:09:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 21:09:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 21:09:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 21:09:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 21:09:51 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 21:09:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 21:09:51 -0500
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 21:10:01 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 56916ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 21:10:58 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 422ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 21:10:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 21:10:58 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 21:10:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 21:10:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 21:10:58 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 21:10:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 21:10:58 -0500
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 21:11:15 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 224ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 21:11:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 21:11:16 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 21:11:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 21:11:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 21:11:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 21:11:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 21:11:16 -0500
