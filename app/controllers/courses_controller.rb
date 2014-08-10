@@ -19,6 +19,8 @@ class CoursesController < ApplicationController
       end
 		end	
 
+		
+
 
 	end
 
@@ -27,9 +29,7 @@ class CoursesController < ApplicationController
 
     response = Course.get_all_courses.parsed_response
     response.each do |course| 
-    	if course['id'] == params[:id].to_i
-    	@course_id = course
-    	end
+    	@course_id = course if course['id'] == params[:id].to_i
     end
   end
 
