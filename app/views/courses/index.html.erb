@@ -5,8 +5,9 @@
 </div>
 
 <div class="courses">
-	<p><%=@courses%></p>
-	<p><%=@uri%></p>
+	<% @courses.each do |course| %>
+		<h2><%= link_to course['name'], course_path(course['id'], :page => @page) %></h2>
+	<% end %>
 </div>
 
 <div class="links">

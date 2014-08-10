@@ -2583,3 +2583,31 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 21:41:14 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 21:41:14 -0500
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-09 21:43:25 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 530ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-09 21:43:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-09 21:43:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-09 21:43:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-09 21:43:26 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-09 21:43:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-09 21:43:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-09 21:43:26 -0500
