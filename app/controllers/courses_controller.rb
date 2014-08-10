@@ -24,12 +24,14 @@ class CoursesController < ApplicationController
 
 	def show
     @home_page = params[:page]
-    session[:course_id] = params[:id]
-    @course_id = session[:course_id]
 
-    response = Course.get_all_courses.parsed_response
-    @course = response.find {|course| course if course['id'] == @course_id}
+    @response = Course.get_all_courses.parsed_response
 
+    @response.each do |course| 
+    	if course['id'] == params[:id]
+    	@course_id = course
+    	end
+    end
   end
 
 	
