@@ -5,11 +5,10 @@
 </div>
 
 <div><%=@link%></div>
-<div><%=@parsed_link[0].flatten(1)[1]%></div>
 
 <div class="courses">
 	<% @courses.each do |course| %>
-		<h2><%= link_to course['name'], course_path(course['id'], :page => @page) %></h2>
+		<h2><%= link_to course['name'], course_path(course['id'], page: @page) %></h2>
 	<% end %>
 </div>
 
