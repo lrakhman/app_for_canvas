@@ -25,13 +25,15 @@ class CoursesController < ApplicationController
 	def show
     @home_page = params[:page]
 
-    @response = Course.get_all_courses.parsed_response
-
-    @response.each do |course| 
+    response = Course.get_all_courses.parsed_response
+    binding.pry
+    response.each do |course| 
     	if course['id'] == params[:id]
+    		binding.pry
     	@course_id = course
     	end
     end
+    binding.pry
   end
 
 	

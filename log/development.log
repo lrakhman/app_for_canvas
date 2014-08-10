@@ -9063,3 +9063,826 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:06:57 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:06:57 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:08:28 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 537ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:08:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:08:29 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:08:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:08:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:08:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:08:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:08:29 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:11:54 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 154ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:11:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:11:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:11:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:11:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:11:54 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:11:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:11:54 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:12:06 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 131ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:12:06 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:12:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:12:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:12:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:12:06 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:12:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:12:06 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:12:20 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 529ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course['name'] %></h2>
+    6: <h4><%= @course['code'] %></h4>
+    7: <p>Description: <%= @course['description'] %></p>
+    8: <p>Starts at: <%= @course['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__1508753902975189243_2173990060'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.2ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:12:40 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 121ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:12:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:12:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:12:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:12:40 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:12:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:12:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:12:40 -0500
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-10 13:12:43 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 122ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-10 13:12:45 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 121ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-10 13:12:51 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 348ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:15:55 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 552ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-10 13:15:57 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 138ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-10 13:16:20 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 589ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:16:20 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:16:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:16:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:16:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:16:20 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:16:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:16:20 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:16:21 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 116ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__1508753902975189243_2206143500'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.5ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:16:21 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 117ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__1508753902975189243_2173647220'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.3ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:17:10 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 160ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__1508753902975189243_2173647220'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.3ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:17:12 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 121ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__1508753902975189243_2173647220'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-10 13:18:12 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 569ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:18:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:18:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:18:13 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:18:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:18:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:18:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:18:13 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:18:15 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 116ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__1508753902975189243_2206143500'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.8ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:18:15 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 122ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__1508753902975189243_2173647220'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-10 13:32:35 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 234ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:32:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:32:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:32:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:32:35 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:32:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:32:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:32:36 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:32:37 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 305924ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__1508753902975189243_2206143500'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.5ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:37:43 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed   in 4866ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-10 13:38:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (9.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 839ms (Views: 260.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:39:00 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:39:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:39:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:39:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:39:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:39:00 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:39:00 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:39:01 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (45.3ms)
+Completed 500 Internal Server Error in 25100ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__4413562717657933360_2170778380'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.8ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:39:26 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 88037ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__4413562717657933360_2158842640'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-10 13:40:55 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 599ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-10 13:40:55 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 122ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-10 13:40:55 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 127ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:40:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:40:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:40:56 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:40:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:40:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:40:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:40:56 -0500
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-10 13:41:01 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 109ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:41:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:41:02 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:41:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:41:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:41:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:41:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:41:02 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:41:03 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 123ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__4413562717657933360_2170778380'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.3ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:41:03 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 120ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: <%=@course_id%>
+    3: <%=params[:id]%>
+    4: <div>
+    5: <h2><%= @course_id['name'] %></h2>
+    6: <h4><%= @course_id['code'] %></h4>
+    7: <p>Description: <%= @course_id['description'] %></p>
+    8: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:5:in `_app_views_courses_show_html_erb__4413562717657933360_2158842640'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.9ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:41:22 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 142ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:41:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:41:23 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:41:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:41:23 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:41:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:41:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:41:23 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:42:05 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 126ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:42:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:42:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:42:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:42:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:42:06 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:42:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:42:06 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:42:17 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 691ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:42:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:42:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:42:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:42:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:42:17 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:42:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:42:17 -0500
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-10 13:42:29 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 129ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-10 13:42:30 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 108ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-10 13:43:10 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 151ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:43:11 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:43:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:43:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:43:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:43:11 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:43:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:43:11 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:43:12 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32800ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:43:45 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 46889ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:44:52 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:44:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:44:52 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:44:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:44:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:44:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:44:52 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-10 13:45:04 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 556ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-10 13:45:06 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41757ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-10 13:45:48 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 92367ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-10 13:47:20 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 543ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-10 13:47:21 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 107ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-10 13:47:21 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 111ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-10 13:47:21 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-10 13:47:21 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-10 13:47:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-10 13:47:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-10 13:47:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-10 13:47:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-10 13:47:21 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-10 13:47:24 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 118ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-10 13:47:30 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 135ms (Views: 4.8ms | ActiveRecord: 0.0ms)
