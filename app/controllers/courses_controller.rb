@@ -1,7 +1,3 @@
-require 'net/http'
-require 'link_header'
-require 'cgi'
-
 class CoursesController < ApplicationController
 
 	def index
@@ -27,7 +23,14 @@ class CoursesController < ApplicationController
 	end
 
 	def show
-	end
+    @home_page = params[:page]
+    session[:course_id] = params[:id]
+    @course_id = session[:course_id]
+
+    response = Course.get_all_courses.parsed_response
+    @course = response.find {|course| course if course['id'] == @course_id}
+
+  end
 
 	
 end
