@@ -9,4 +9,5 @@ class Course
     get("/api/v1/courses?", :query => { page: @page, access_token: '9be624b4d5206a178fc56921d5bf2c2a' })
   end
 
+  
 end
