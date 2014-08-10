@@ -1,6 +1,9 @@
-
-<%=@course_id.inspect%>
-<%=params[:id]%>
-
+<div>
+<h2><%= @course_id['name'] %></h2>
+<h4><%= @course_id['code'] %></h4>
+<p>Description: <%= @course_id['description'] %></p>
+<p>Starts at: <%= @course_id['start_at'] %></p>
+<p>Ends at: <%= @course_id['end_at'] %></p>
+</div>
 
 <div><%= link_to 'Back to Courses', courses_path(page: @home_page) %></div>
