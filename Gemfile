@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'httparty'
 gem 'pry'
+gem 'link_header'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'

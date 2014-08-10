@@ -1,5 +1,3 @@
-require 'link_header'
-
 class CoursesController < ApplicationController
 
 	def index
@@ -9,7 +7,16 @@ class CoursesController < ApplicationController
 		parsed_link = LinkHeader.parse(@link).to_a
 
 		parsed_link.map do |item|
-			
+			position = item[1][0][1]
+			if position == "first"
+        @first_page = item[0]
+      elsif position == "prev"
+        @prev_page = item[0]
+      elsif position == "next"
+        @next_page = item[0]
+      elsif position == "last"
+        @last_page = item[0]
+      end
 		end	
 
 	end
