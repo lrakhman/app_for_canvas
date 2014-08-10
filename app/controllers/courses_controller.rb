@@ -1,3 +1,7 @@
+require 'net/http'
+require 'link_header'
+require 'cgi'
+
 class CoursesController < ApplicationController
 
 	def index
@@ -19,6 +23,10 @@ class CoursesController < ApplicationController
       end
 		end	
 
+
+	end
+
+	def show
 	end
 
 	
