@@ -23497,3 +23497,1314 @@ Processing by EnrollmentsController#index as HTML
   Parameters: {"course_id"=>"4"}
   Rendered enrollments/index.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/4/enrollments" for 127.0.0.1 at 2014-08-11 15:41:43 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"4"}
+  Rendered enrollments/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:41:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:41:44 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:41:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:41:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:41:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:41:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:41:44 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:41:44 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:41:44 -0500
+
+
+Started GET "/courses/4/enrollments" for 127.0.0.1 at 2014-08-11 15:42:06 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"4"}
+  Rendered enrollments/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:42:06 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:42:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:42:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:06 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:06 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:06 -0500
+
+
+Started GET "/courses/4/enrollments" for 127.0.0.1 at 2014-08-11 15:42:13 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"4"}
+  Rendered enrollments/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:42:13 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:42:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:42:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:13 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:13 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:13 -0500
+
+
+Started POST "/courses/4/enrollments" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+Processing by EnrollmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"olQBqjJ7W7gKe30IAKue6hjALzZLmialjH9bZK2yImg=", "type"=>"student", "user"=>{"name"=>"Tyler"}, "commit"=>"Enroll", "course_id"=>"4"}
+******************
+Not Found====================
+Redirected to http://localhost:3000/
+Completed 302 Found in 540ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 140ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:42:27 -0500
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 15:44:53 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 468ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 15:44:54 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendered courses/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 128ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/3/enrollments" for 127.0.0.1 at 2014-08-11 15:44:56 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"3"}
+  Rendered enrollments/index.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `hidden' for #<ActionView::Helpers::FormBuilder:0x00000109618438>):
+    1: <%= form_for :user, url: course_enrollments_path do |f| %>
+    2: 
+    3: 	<%= f.hidden :type, "student" %>
+    4:   <%= f.label :name %>:
+    5:   <%= f.text_field :name %><br />
+    6: 
+  app/views/enrollments/index.html.erb:3:in `block in _app_views_enrollments_index_html_erb__835891984355176338_2211413300'
+  app/views/enrollments/index.html.erb:1:in `_app_views_enrollments_index_html_erb__835891984355176338_2211413300'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.6ms)
+
+
+Started GET "/courses/3/enrollments" for 127.0.0.1 at 2014-08-11 15:44:56 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"3"}
+  Rendered enrollments/index.html.erb within layouts/application (10.2ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `hidden' for #<ActionView::Helpers::FormBuilder:0x0000010906af68>):
+    1: <%= form_for :user, url: course_enrollments_path do |f| %>
+    2: 
+    3: 	<%= f.hidden :type, "student" %>
+    4:   <%= f.label :name %>:
+    5:   <%= f.text_field :name %><br />
+    6: 
+  app/views/enrollments/index.html.erb:3:in `block in _app_views_enrollments_index_html_erb__835891984355176338_2223575100'
+  app/views/enrollments/index.html.erb:1:in `_app_views_enrollments_index_html_erb__835891984355176338_2223575100'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.8ms)
+
+
+Started GET "/courses/3/enrollments" for 127.0.0.1 at 2014-08-11 15:45:40 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"3"}
+  Rendered enrollments/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `merge' for "student":String):
+    1: <%= form_for :user, url: course_enrollments_path do |f| %>
+    2: 
+    3: 	<%= f.hidden_field :type, "student" %>
+    4:   <%= f.label :name %>:
+    5:   <%= f.text_field :name %><br />
+    6: 
+  app/views/enrollments/index.html.erb:3:in `block in _app_views_enrollments_index_html_erb__835891984355176338_2223636640'
+  app/views/enrollments/index.html.erb:1:in `_app_views_enrollments_index_html_erb__835891984355176338_2223636640'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/courses/3/enrollments" for 127.0.0.1 at 2014-08-11 15:46:30 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"3"}
+  Rendered enrollments/index.html.erb within layouts/application (55.1ms)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:46:30 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:46:30 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:46:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:31 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:31 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:31 -0500
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 15:46:35 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 536ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:46:35 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:46:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:46:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:35 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:35 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:35 -0500
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 15:46:39 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 129ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/4" for 127.0.0.1 at 2014-08-11 15:46:41 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendered courses/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 241ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/4/enrollments" for 127.0.0.1 at 2014-08-11 15:46:42 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"4"}
+  Rendered enrollments/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/courses/4/enrollments" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+Processing by EnrollmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"olQBqjJ7W7gKe30IAKue6hjALzZLmialjH9bZK2yImg=", "user"=>{"type"=>"student", "name"=>"Starbucks"}, "commit"=>"Enroll", "course_id"=>"4"}
+******************
+Not Found====================
+Redirected to http://localhost:3000/
+Completed 302 Found in 98ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 114ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:46:50 -0500
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 15:47:46 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 538ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2/enrollments" for 127.0.0.1 at 2014-08-11 15:47:48 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"2"}
+  Rendered enrollments/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/courses/2/enrollments" for 127.0.0.1 at 2014-08-11 15:47:58 -0500
+Processing by EnrollmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"olQBqjJ7W7gKe30IAKue6hjALzZLmialjH9bZK2yImg=", "type"=>"student", "user"=>{"name"=>"ty ty"}, "commit"=>"Enroll", "course_id"=>"2"}
+******************
+Not Found====================
+Redirected to http://localhost:3000/
+Completed 302 Found in 96ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 15:47:58 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 16120ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:48:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:48:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:48:15 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:48:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:48:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:48:15 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:48:15 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:48:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:48:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 15:52:29 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 547ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:30 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:52:30 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:52:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:52:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:30 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:30 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:30 -0500
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 15:52:31 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 115ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2/enrollments" for 127.0.0.1 at 2014-08-11 15:52:32 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"2"}
+  Rendered enrollments/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-11 15:52:51 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 134ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:52:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:52:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:52 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:52:52 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:52 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:52:52 -0500
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 15:52:53 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 111ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 15:52:54 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendered courses/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 105ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/3/enrollments" for 127.0.0.1 at 2014-08-11 15:52:56 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"3"}
+  Rendered enrollments/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/courses/3/enrollments" for 127.0.0.1 at 2014-08-11 15:52:59 -0500
+Processing by EnrollmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"olQBqjJ7W7gKe30IAKue6hjALzZLmialjH9bZK2yImg=", "user"=>{"name"=>"yep"}, "commit"=>"Enroll", "course_id"=>"3"}
+Redirected to http://localhost:3000/courses/3/enrollments
+Completed 302 Found in 125ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/3/enrollments" for 127.0.0.1 at 2014-08-11 15:53:00 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"3"}
+  Rendered enrollments/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:53:00 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:53:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:53:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:53:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:53:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:53:00 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:53:00 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:53:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:53:00 -0500
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 15:54:40 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 498ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:54:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:54:40 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:40 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:41 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:54:41 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-11 15:54:42 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 106ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/1/enrollments" for 127.0.0.1 at 2014-08-11 15:54:43 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"1"}
+  Rendered enrollments/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/courses/1/enrollments" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+Processing by EnrollmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"olQBqjJ7W7gKe30IAKue6hjALzZLmialjH9bZK2yImg=", "type"=>"student", "user"=>{"name"=>"Lana Rakhman"}, "commit"=>"Enroll", "course_id"=>"1"}
+Redirected to http://localhost:3000/courses/1/enrollments
+Completed 302 Found in 97ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/1/enrollments" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"1"}
+  Rendered enrollments/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:54:49 -0500
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 15:55:49 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 539ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:55:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:55:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:55:50 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:55:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:55:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:55:50 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:55:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:55:50 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:55:50 -0500
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 15:55:52 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 110ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-11 15:55:52 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 113ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/5" for 127.0.0.1 at 2014-08-11 15:55:53 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"5"}
+  Rendered courses/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 110ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 15:55:54 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"5"}
+  Rendered enrollments/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+Processing by EnrollmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"olQBqjJ7W7gKe30IAKue6hjALzZLmialjH9bZK2yImg=", "type"=>"student", "user"=>{"name"=>"yesdfjsdlkf"}, "commit"=>"Enroll", "course_id"=>"5"}
+Redirected to http://localhost:3000/courses/5/enrollments
+#<Net::HTTPBadRequest:0x00000105eaccb0>====================
+Completed 302 Found in 103ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"5"}
+  Rendered enrollments/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:00 -0500
+
+
+Started GET "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 15:56:41 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"5"}
+  Rendered enrollments/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:56:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:56:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:41 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:56:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:41 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:41 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:41 -0500
+
+
+Started POST "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+Processing by EnrollmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"olQBqjJ7W7gKe30IAKue6hjALzZLmialjH9bZK2yImg=", "type"=>"student", "user"=>{"name"=>"scsafdfgsfgs"}, "commit"=>"Enroll", "course_id"=>"5"}
+Redirected to http://localhost:3000/courses/5/enrollments
+{"error":"Bad request"}====================
+Completed 302 Found in 101ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"5"}
+  Rendered enrollments/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:56:47 -0500
+
+
+Started GET "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 15:59:06 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"5"}
+  Rendered enrollments/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:59:06 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:59:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:59:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:06 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:06 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:06 -0500
+
+
+Started GET "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 15:59:39 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"5"}
+  Rendered enrollments/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:59:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:59:39 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:59:39 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:39 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:39 -0500
+
+
+Started GET "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 15:59:48 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"5"}
+  Rendered enrollments/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 15:59:48 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 15:59:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 15:59:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:48 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:48 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 15:59:48 -0500
+
+
+Started GET "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 16:00:29 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"5"}
+  Rendered enrollments/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 16:00:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:29 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 16:00:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 16:00:29 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:29 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:29 -0500
+
+
+Started POST "/courses/5/enrollments" for 127.0.0.1 at 2014-08-11 16:00:31 -0500
+Processing by EnrollmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"olQBqjJ7W7gKe30IAKue6hjALzZLmialjH9bZK2yImg=", "user"=>{"name"=>""}, "commit"=>"Enroll", "course_id"=>"5"}
+Redirected to 
+Completed 500 Internal Server Error in 8591ms
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/enrollments_controller.rb:10:in `create'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.2ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 16:00:39 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 113ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 16:00:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:39 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 16:00:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 16:00:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:39 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:39 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:39 -0500
+
+
+Started GET "/course" for 127.0.0.1 at 2014-08-11 16:00:40 -0500
+
+ActionController::RoutingError (No route matches [GET] "/course"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/lanarakhman/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lanarakhman/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lanarakhman/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (318.8ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (406.9ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 16:00:45 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 113ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 16:00:46 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 16:00:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 16:00:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:46 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:46 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 16:00:46 -0500
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 16:00:47 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 105ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2/enrollments" for 127.0.0.1 at 2014-08-11 16:00:48 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"2"}
+  Rendered enrollments/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/courses/2/enrollments" for 127.0.0.1 at 2014-08-11 16:00:51 -0500
+Processing by EnrollmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"olQBqjJ7W7gKe30IAKue6hjALzZLmialjH9bZK2yImg=", "user"=>{"name"=>"afsfsdfds"}, "type"=>"student", "commit"=>"Enroll", "course_id"=>"2"}
+Redirected to 
+Completed 500 Internal Server Error in 97ms
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/enrollments_controller.rb:10:in `create'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 16:02:22 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 527ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 16:02:23 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 16:02:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 16:02:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 16:02:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 16:02:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 16:02:23 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 16:02:23 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 16:02:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 16:02:23 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-11 16:02:24 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 117ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-11 16:03:08 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 219ms (Views: 119.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:09 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:09 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:09 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:09 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:09 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-11 16:03:19 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 129ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:19 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:19 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:19 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:19 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-11 16:03:28 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 543ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:29 -0500
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:29 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:29 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:29 -0500
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 16:03:35 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 123ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/enrollments.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:35 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 16:03:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:35 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:35 -0500
+
+
+Started GET "/assets/enrollments.js?body=1" for 127.0.0.1 at 2014-08-11 16:03:35 -0500
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 16:03:36 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered courses/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 108ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-11 16:03:38 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered courses/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 111ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 16:03:40 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 115ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/4" for 127.0.0.1 at 2014-08-11 16:03:41 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendered courses/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 123ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/4/enrollments" for 127.0.0.1 at 2014-08-11 16:03:44 -0500
+Processing by EnrollmentsController#index as HTML
+  Parameters: {"course_id"=>"4"}
+  Rendered enrollments/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)

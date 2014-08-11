@@ -1,7 +1,9 @@
+<div class="container1">
 <%= form_for :user, url: course_enrollments_path do |f| %>
-
   <%= f.label :name %>:
   <%= f.text_field :name %><br />
-
-  <%= f.submit 'Enroll'%>
+  <%= radio_button_tag(:type, "student") %>
+	<%= label_tag(:type, "student") %><br/>	
+	<%= f.submit 'Enroll'%>
 <% end %>
+</div>
