@@ -4,12 +4,6 @@
 	<h2>Welcome! Here are the current courses that we offer:</h2>
 </div>
 
-<div><%=@next_page.inspect%></div>
-<div><%=params[:page].inspect%></div>
-<div><%=@next_course_info.inspect%></div><br/>
-<div><%=@next_course_query.inspect%></div><br/>
-
-
 <div class="courses">
 	<% @courses.each do |course| %>
 		<h2><%= link_to course['name'], course_path(course['id'], page: @page) %></h2>
@@ -20,7 +14,7 @@
 	<span><%if @prev_course_info.nil? %>
 				<%= 'Previous'%>
 				<%else%>
-				<%link_to('Previous', courses_path(page: @prev_course_info)) %>
+				<%=link_to('Previous', courses_path(page: @prev_course_info)) %>
 				<%end%>
 	</span>
 	<span id="next"><%if @next_course_info.nil? %> 
