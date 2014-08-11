@@ -1,5 +1,5 @@
 class CoursesController < ApplicationController
-	include HTTParty
+
 	def index
 		
 		@courses = Course.get_all_courses
@@ -26,7 +26,6 @@ class CoursesController < ApplicationController
    
    	@prev_course_info = @prev_page.nil? ? nil : prev_course_query.length > 1 ? params[:page].to_i : nil
     @next_course_info = @next_page.nil? ? nil : @next_course_query.length > 1 ? params[:page].to_i : nil
-
 
 	end
 
