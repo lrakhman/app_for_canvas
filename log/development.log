@@ -17901,3 +17901,1655 @@ Processing by CoursesController#index as HTML
   Parameters: {"page"=>"4"}
   Rendered courses/index.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 109ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-11 13:53:41 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 564ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-11 13:53:41 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 129ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-11 13:53:41 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 116ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 13:53:42 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 185ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=1" for 127.0.0.1 at 2014-08-11 13:53:43 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 114ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 13:54:18 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 111ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 13:54:20 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 114ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 13:55:31 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 529ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 13:55:34 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 147ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: 
+    2: 
+    3: <div>
+    4: <h2><%= @course_id['name'] %></h2>
+    5: <h4><%= @course_id['code'] %></h4>
+    6: <p>Description: <%= @course_id['description'] %></p>
+    7: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:4:in `_app_views_courses_show_html_erb__748707969101150232_2223848280'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.6ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 13:55:35 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 166ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: 
+    2: 
+    3: <div>
+    4: <h2><%= @course_id['name'] %></h2>
+    5: <h4><%= @course_id['code'] %></h4>
+    6: <p>Description: <%= @course_id['description'] %></p>
+    7: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:4:in `_app_views_courses_show_html_erb__748707969101150232_2170559860'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.3ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 13:56:54 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 474ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <%=params[:page]%>
+    2: 
+    3: <div>
+    4: <h2><%= @course_id['name'] %></h2>
+    5: <h4><%= @course_id['code'] %></h4>
+    6: <p>Description: <%= @course_id['description'] %></p>
+    7: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:4:in `_app_views_courses_show_html_erb__748707969101150232_2211229840'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 13:57:03 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 115ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 13:57:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 13:57:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 13:57:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 13:57:03 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 13:57:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 13:57:03 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 13:57:03 -0500
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 13:57:13 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 137ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 13:57:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 13:57:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 13:57:14 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 13:57:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 13:57:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 13:57:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 13:57:14 -0500
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 13:58:29 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 541ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 13:58:30 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 13:58:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 13:58:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 13:58:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 13:58:30 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 13:58:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 13:58:30 -0500
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 13:58:37 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 115ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 13:58:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 13:58:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 13:58:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 13:58:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 13:58:37 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 13:58:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 13:58:37 -0500
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 13:59:50 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 560ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 13:59:51 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 140ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 13:59:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 13:59:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 13:59:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 13:59:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 13:59:51 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 13:59:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 13:59:51 -0500
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 13:59:53 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 111ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/4" for 127.0.0.1 at 2014-08-11 13:59:55 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"4"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 114ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2226382440'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.5ms)
+
+
+Started GET "/courses/4" for 127.0.0.1 at 2014-08-11 13:59:55 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"4"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 113ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.5ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 14:00:04 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 131ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:00:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:00:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:00:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:00:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:00:04 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:00:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:00:04 -0500
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-11 14:00:06 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 111ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/5" for 127.0.0.1 at 2014-08-11 14:00:07 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"5"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 117ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2226382440'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.7ms)
+
+
+Started GET "/courses/5" for 127.0.0.1 at 2014-08-11 14:00:07 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"5"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 112ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.3ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:00:17 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 118ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:00:17 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:00:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:00:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:00:17 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:00:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:00:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:00:17 -0500
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 14:01:11 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 564ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 14:01:13 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 109ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2226382440'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.0ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 14:01:14 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+[{"json_class"=>"Course", "id"=>1, "name"=>"Intro to Literary Theory", "code"=>"ENGL 2100", "description"=>"The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die.", "start_at"=>"2012-09-28 15:58:58 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}, {"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}]============================
+  Rendered courses/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 107ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.3ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:05:11 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 148ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:05:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:05:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:05:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:05:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:05:11 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:05:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:05:11 -0500
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-11 14:05:13 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 3ms
+
+URI::InvalidURIError (the scheme http does not accept registry part: :80 (or bad hostname?)):
+  app/controllers/courses_controller.rb:34:in `show'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.2ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-11 14:05:13 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms
+
+URI::InvalidURIError (the scheme http does not accept registry part: :80 (or bad hostname?)):
+  app/controllers/courses_controller.rb:34:in `show'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-11 14:05:31 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+{"status"=>"unauthorized", "message"=>"Invalid access token."}
+  Rendered courses/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 268ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.8ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2014-08-11 14:05:53 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+{"status"=>"unauthorized", "message"=>"Invalid access token."}
+  Rendered courses/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 106ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.6ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:08:20 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 534ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:08:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:08:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:08:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:08:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:08:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:08:21 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:08:21 -0500
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 14:08:23 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+<!DOCTYPE html>
+    <html>
+    <head>
+      <title>Heroku | No such app</title>
+      <style type='text/css'>
+      body {
+        background-color: white;
+        color: #333333;
+          font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 36px;
+        line-height: 1;
+        font-size: 14px; }
+
+      .section {
+        margin-bottom: 36px; }
+        .section.friendly {
+          color: #222222; }
+          .section.friendly h1 {
+            font-size: 26px;
+            background-color: #dad8e4;
+            padding: 18px 22px 15px 22px;
+            margin: 0;
+            overflow: hidden; }
+            .section.friendly h1 strong {
+              display: inline-block;
+              float: left; }
+            .section.friendly h1 small {
+              display: inline-block;
+              float: right;
+              text-align: right;
+              font-size: 18px;
+              padding-top: 4px;
+              color: #333333; }
+          .section.friendly .article {
+            border: 4px solid #dad8e4;
+            padding: 24px 18px 18px 18px; }
+            .section.friendly .article h3 {
+              font-size: 20px;
+              margin: 0 0 18px 0; }
+            .section.friendly .article a {
+              color: #6b6ceb; }
+              .section.friendly .article a:visited {
+                color: #1d1d3b; }
+            .section.friendly .article p {
+              font-size: 14px; }
+            .section.friendly .article ul {
+              list-style-type: square; }
+      .section.original {
+        background-color: #eeeeee;
+        color: #444444; }
+        .section.original h2 {
+          background-color: #dddddd;
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          font-size: 20px; }
+        .section.original pre {
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          overflow: auto;
+          font-family: monaco, monospaced; }
+          .section.original pre code {
+            display: block;
+            font-size: 11px;
+            width: 100%; }
+    </style>
+      <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', ', UA-2989055-7']);
+_gaq.push(['_setDomainName', '.heroku.com']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+    </head>
+    <body>
+        <div class='container'>
+          <div class='section friendly'>
+            <h1><strong>Heroku | No such app</strong></h1>
+            <div class='article'>
+              <p>There is no app configured at that hostname.<br/>Perhaps the app owner has renamed it, or you mistyped the URL.</p>
+            </div>
+          </div>
+        </div>
+    </body>
+    </html>
+  Rendered courses/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 133ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2226382440'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.5ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 14:08:23 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+<!DOCTYPE html>
+    <html>
+    <head>
+      <title>Heroku | No such app</title>
+      <style type='text/css'>
+      body {
+        background-color: white;
+        color: #333333;
+          font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 36px;
+        line-height: 1;
+        font-size: 14px; }
+
+      .section {
+        margin-bottom: 36px; }
+        .section.friendly {
+          color: #222222; }
+          .section.friendly h1 {
+            font-size: 26px;
+            background-color: #dad8e4;
+            padding: 18px 22px 15px 22px;
+            margin: 0;
+            overflow: hidden; }
+            .section.friendly h1 strong {
+              display: inline-block;
+              float: left; }
+            .section.friendly h1 small {
+              display: inline-block;
+              float: right;
+              text-align: right;
+              font-size: 18px;
+              padding-top: 4px;
+              color: #333333; }
+          .section.friendly .article {
+            border: 4px solid #dad8e4;
+            padding: 24px 18px 18px 18px; }
+            .section.friendly .article h3 {
+              font-size: 20px;
+              margin: 0 0 18px 0; }
+            .section.friendly .article a {
+              color: #6b6ceb; }
+              .section.friendly .article a:visited {
+                color: #1d1d3b; }
+            .section.friendly .article p {
+              font-size: 14px; }
+            .section.friendly .article ul {
+              list-style-type: square; }
+      .section.original {
+        background-color: #eeeeee;
+        color: #444444; }
+        .section.original h2 {
+          background-color: #dddddd;
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          font-size: 20px; }
+        .section.original pre {
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          overflow: auto;
+          font-family: monaco, monospaced; }
+          .section.original pre code {
+            display: block;
+            font-size: 11px;
+            width: 100%; }
+    </style>
+      <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', ', UA-2989055-7']);
+_gaq.push(['_setDomainName', '.heroku.com']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+    </head>
+    <body>
+        <div class='container'>
+          <div class='section friendly'>
+            <h1><strong>Heroku | No such app</strong></h1>
+            <div class='article'>
+              <p>There is no app configured at that hostname.<br/>Perhaps the app owner has renamed it, or you mistyped the URL.</p>
+            </div>
+          </div>
+        </div>
+    </body>
+    </html>
+  Rendered courses/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 516ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.3ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:09:20 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 142ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:09:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:09:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:09:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:09:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:09:20 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:09:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:09:20 -0500
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:09:21 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 130ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:09:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:09:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:09:21 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:09:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:09:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:09:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:09:21 -0500
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 14:09:23 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+<!DOCTYPE html>
+    <html>
+    <head>
+      <title>Heroku | No such app</title>
+      <style type='text/css'>
+      body {
+        background-color: white;
+        color: #333333;
+          font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 36px;
+        line-height: 1;
+        font-size: 14px; }
+
+      .section {
+        margin-bottom: 36px; }
+        .section.friendly {
+          color: #222222; }
+          .section.friendly h1 {
+            font-size: 26px;
+            background-color: #dad8e4;
+            padding: 18px 22px 15px 22px;
+            margin: 0;
+            overflow: hidden; }
+            .section.friendly h1 strong {
+              display: inline-block;
+              float: left; }
+            .section.friendly h1 small {
+              display: inline-block;
+              float: right;
+              text-align: right;
+              font-size: 18px;
+              padding-top: 4px;
+              color: #333333; }
+          .section.friendly .article {
+            border: 4px solid #dad8e4;
+            padding: 24px 18px 18px 18px; }
+            .section.friendly .article h3 {
+              font-size: 20px;
+              margin: 0 0 18px 0; }
+            .section.friendly .article a {
+              color: #6b6ceb; }
+              .section.friendly .article a:visited {
+                color: #1d1d3b; }
+            .section.friendly .article p {
+              font-size: 14px; }
+            .section.friendly .article ul {
+              list-style-type: square; }
+      .section.original {
+        background-color: #eeeeee;
+        color: #444444; }
+        .section.original h2 {
+          background-color: #dddddd;
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          font-size: 20px; }
+        .section.original pre {
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          overflow: auto;
+          font-family: monaco, monospaced; }
+          .section.original pre code {
+            display: block;
+            font-size: 11px;
+            width: 100%; }
+    </style>
+      <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', ', UA-2989055-7']);
+_gaq.push(['_setDomainName', '.heroku.com']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+    </head>
+    <body>
+        <div class='container'>
+          <div class='section friendly'>
+            <h1><strong>Heroku | No such app</strong></h1>
+            <div class='article'>
+              <p>There is no app configured at that hostname.<br/>Perhaps the app owner has renamed it, or you mistyped the URL.</p>
+            </div>
+          </div>
+        </div>
+    </body>
+    </html>================================
+  Rendered courses/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 520ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2226382440'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.2ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 14:09:24 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+<!DOCTYPE html>
+    <html>
+    <head>
+      <title>Heroku | No such app</title>
+      <style type='text/css'>
+      body {
+        background-color: white;
+        color: #333333;
+          font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 36px;
+        line-height: 1;
+        font-size: 14px; }
+
+      .section {
+        margin-bottom: 36px; }
+        .section.friendly {
+          color: #222222; }
+          .section.friendly h1 {
+            font-size: 26px;
+            background-color: #dad8e4;
+            padding: 18px 22px 15px 22px;
+            margin: 0;
+            overflow: hidden; }
+            .section.friendly h1 strong {
+              display: inline-block;
+              float: left; }
+            .section.friendly h1 small {
+              display: inline-block;
+              float: right;
+              text-align: right;
+              font-size: 18px;
+              padding-top: 4px;
+              color: #333333; }
+          .section.friendly .article {
+            border: 4px solid #dad8e4;
+            padding: 24px 18px 18px 18px; }
+            .section.friendly .article h3 {
+              font-size: 20px;
+              margin: 0 0 18px 0; }
+            .section.friendly .article a {
+              color: #6b6ceb; }
+              .section.friendly .article a:visited {
+                color: #1d1d3b; }
+            .section.friendly .article p {
+              font-size: 14px; }
+            .section.friendly .article ul {
+              list-style-type: square; }
+      .section.original {
+        background-color: #eeeeee;
+        color: #444444; }
+        .section.original h2 {
+          background-color: #dddddd;
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          font-size: 20px; }
+        .section.original pre {
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          overflow: auto;
+          font-family: monaco, monospaced; }
+          .section.original pre code {
+            display: block;
+            font-size: 11px;
+            width: 100%; }
+    </style>
+      <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', ', UA-2989055-7']);
+_gaq.push(['_setDomainName', '.heroku.com']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+    </head>
+    <body>
+        <div class='container'>
+          <div class='section friendly'>
+            <h1><strong>Heroku | No such app</strong></h1>
+            <div class='article'>
+              <p>There is no app configured at that hostname.<br/>Perhaps the app owner has renamed it, or you mistyped the URL.</p>
+            </div>
+          </div>
+        </div>
+    </body>
+    </html>================================
+  Rendered courses/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 147ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.8ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:10:42 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 155ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:10:42 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 139ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:10:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:10:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:10:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:10:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:10:43 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:10:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:10:43 -0500
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 14:10:44 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+<!DOCTYPE html>
+    <html>
+    <head>
+      <title>Heroku | No such app</title>
+      <style type='text/css'>
+      body {
+        background-color: white;
+        color: #333333;
+          font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 36px;
+        line-height: 1;
+        font-size: 14px; }
+
+      .section {
+        margin-bottom: 36px; }
+        .section.friendly {
+          color: #222222; }
+          .section.friendly h1 {
+            font-size: 26px;
+            background-color: #dad8e4;
+            padding: 18px 22px 15px 22px;
+            margin: 0;
+            overflow: hidden; }
+            .section.friendly h1 strong {
+              display: inline-block;
+              float: left; }
+            .section.friendly h1 small {
+              display: inline-block;
+              float: right;
+              text-align: right;
+              font-size: 18px;
+              padding-top: 4px;
+              color: #333333; }
+          .section.friendly .article {
+            border: 4px solid #dad8e4;
+            padding: 24px 18px 18px 18px; }
+            .section.friendly .article h3 {
+              font-size: 20px;
+              margin: 0 0 18px 0; }
+            .section.friendly .article a {
+              color: #6b6ceb; }
+              .section.friendly .article a:visited {
+                color: #1d1d3b; }
+            .section.friendly .article p {
+              font-size: 14px; }
+            .section.friendly .article ul {
+              list-style-type: square; }
+      .section.original {
+        background-color: #eeeeee;
+        color: #444444; }
+        .section.original h2 {
+          background-color: #dddddd;
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          font-size: 20px; }
+        .section.original pre {
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          overflow: auto;
+          font-family: monaco, monospaced; }
+          .section.original pre code {
+            display: block;
+            font-size: 11px;
+            width: 100%; }
+    </style>
+      <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', ', UA-2989055-7']);
+_gaq.push(['_setDomainName', '.heroku.com']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+    </head>
+    <body>
+        <div class='container'>
+          <div class='section friendly'>
+            <h1><strong>Heroku | No such app</strong></h1>
+            <div class='article'>
+              <p>There is no app configured at that hostname.<br/>Perhaps the app owner has renamed it, or you mistyped the URL.</p>
+            </div>
+          </div>
+        </div>
+    </body>
+    </html>================================
+  Rendered courses/show.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 100ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2226382440'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.5ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 14:10:44 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+<!DOCTYPE html>
+    <html>
+    <head>
+      <title>Heroku | No such app</title>
+      <style type='text/css'>
+      body {
+        background-color: white;
+        color: #333333;
+          font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 36px;
+        line-height: 1;
+        font-size: 14px; }
+
+      .section {
+        margin-bottom: 36px; }
+        .section.friendly {
+          color: #222222; }
+          .section.friendly h1 {
+            font-size: 26px;
+            background-color: #dad8e4;
+            padding: 18px 22px 15px 22px;
+            margin: 0;
+            overflow: hidden; }
+            .section.friendly h1 strong {
+              display: inline-block;
+              float: left; }
+            .section.friendly h1 small {
+              display: inline-block;
+              float: right;
+              text-align: right;
+              font-size: 18px;
+              padding-top: 4px;
+              color: #333333; }
+          .section.friendly .article {
+            border: 4px solid #dad8e4;
+            padding: 24px 18px 18px 18px; }
+            .section.friendly .article h3 {
+              font-size: 20px;
+              margin: 0 0 18px 0; }
+            .section.friendly .article a {
+              color: #6b6ceb; }
+              .section.friendly .article a:visited {
+                color: #1d1d3b; }
+            .section.friendly .article p {
+              font-size: 14px; }
+            .section.friendly .article ul {
+              list-style-type: square; }
+      .section.original {
+        background-color: #eeeeee;
+        color: #444444; }
+        .section.original h2 {
+          background-color: #dddddd;
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          font-size: 20px; }
+        .section.original pre {
+          margin: 0;
+          padding: 18px 22px 18px 22px;
+          overflow: auto;
+          font-family: monaco, monospaced; }
+          .section.original pre code {
+            display: block;
+            font-size: 11px;
+            width: 100%; }
+    </style>
+      <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', ', UA-2989055-7']);
+_gaq.push(['_setDomainName', '.heroku.com']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+    </head>
+    <body>
+        <div class='container'>
+          <div class='section friendly'>
+            <h1><strong>Heroku | No such app</strong></h1>
+            <div class='article'>
+              <p>There is no app configured at that hostname.<br/>Perhaps the app owner has renamed it, or you mistyped the URL.</p>
+            </div>
+          </div>
+        </div>
+    </body>
+    </html>================================
+  Rendered courses/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 96ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.7ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:11:19 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 118ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:11:19 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 120ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:11:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:11:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:11:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:11:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:11:19 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:11:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:11:19 -0500
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 14:11:21 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+{"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}================================
+  Rendered courses/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 128ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2226382440'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.5ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 14:11:21 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+{"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}================================
+  Rendered courses/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 113ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.0ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 14:11:44 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+{"json_class"=>"Course", "id"=>2, "name"=>"Introduccion a Espanoles", "code"=>"SPAN-1000", "description"=>"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.", "start_at"=>"2012-10-02 06:00:00 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}================================
+  Rendered courses/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 486ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.9ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:11:48 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 113ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:11:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:11:48 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:11:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:11:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:11:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:11:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:11:48 -0500
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 14:11:49 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 117ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 14:11:50 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+{"json_class"=>"Course", "id"=>3, "name"=>"Clojure for Dummies", "code"=>"CS-210", "description"=>"Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.", "start_at"=>"2012-10-08 17:27:23 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}================================
+  Rendered courses/show.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 109ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2226382440'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.6ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2014-08-11 14:11:50 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+{"json_class"=>"Course", "id"=>3, "name"=>"Clojure for Dummies", "code"=>"CS-210", "description"=>"Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.", "start_at"=>"2012-10-08 17:27:23 +0000", "end_at"=>nil, "created_at"=>"2012-11-14 19:25:38 +0000", "updated_at"=>nil}================================
+  Rendered courses/show.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 122ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <div>
+    2: <h2><%= @course_id['name'] %></h2>
+    3: <h4><%= @course_id['code'] %></h4>
+    4: <p>Description: <%= @course_id['description'] %></p>
+    5: <p>Starts at: <%= @course_id['start_at'] %></p>
+  app/views/courses/show.html.erb:2:in `_app_views_courses_show_html_erb__748707969101150232_2212944000'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.2ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:13:51 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 531ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:13:51 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 112ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:13:51 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:13:51 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:13:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:13:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:13:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:13:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:13:51 -0500
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2014-08-11 14:13:53 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+#<ActionDispatch::Response:0x0000010906d5d8>================================
+  Rendered courses/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 107ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:13:54 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 117ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 14:13:56 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 194ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/4" for 127.0.0.1 at 2014-08-11 14:13:57 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"4"}
+#<ActionDispatch::Response:0x00000107d52160>================================
+  Rendered courses/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 116ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:13:58 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 227ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=2" for 127.0.0.1 at 2014-08-11 14:14:01 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered courses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 119ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses?page=3" for 127.0.0.1 at 2014-08-11 14:14:02 -0500
+Processing by CoursesController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered courses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 115ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/6" for 127.0.0.1 at 2014-08-11 14:14:03 -0500
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"6"}
+#<ActionDispatch::Response:0x00000105e748b0>================================
+  Rendered courses/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 106ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:15:14 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 531ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:15:41 -0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 110ms
+
+NameError (undefined local variable or method `next_course_query' for #<CoursesController:0x00000102d793f0>):
+  app/controllers/courses_controller.rb:28:in `index'
+
+
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lanarakhman/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.8ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2014-08-11 14:15:55 -0500
+Processing by CoursesController#index as HTML
+  Rendered courses/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 389ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-11 14:15:56 -0500
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2014-08-11 14:15:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-11 14:15:56 -0500
+
+
+Started GET "/assets/courses.js?body=1" for 127.0.0.1 at 2014-08-11 14:15:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-11 14:15:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-11 14:15:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-11 14:15:56 -0500

@@ -1,11 +1,9 @@
-
-
 <div>
-<h2><%= @course_id['name'] %></h2>
-<h4><%= @course_id['code'] %></h4>
-<p>Description: <%= @course_id['description'] %></p>
-<p>Starts at: <%= @course_id['start_at'] %></p>
-<p>Ends at: <%= @course_id['end_at'] %></p>
+<h2><%= @response['name'] %></h2>
+<h4><%= @response['code'] %></h4>
+<p>Description: <%= @response['description'] %></p>
+<p>Starts at: <%= @response['start_at'] %></p>
+<p>Ends at: <%= @response['end_at'] %></p>
 </div>
 
 <div><%= link_to 'Back to Courses', courses_path(page: @home_page) %></div>
