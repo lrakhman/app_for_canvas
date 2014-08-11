@@ -6,4 +6,6 @@
 <p>Ends at: <%= @response['end_at'] %></p>
 </div>
 
+<div><%= link_to 'Enroll in this Course', course_enrollments_path(:course_id)%></div>
+
 <div><%= link_to 'Back to Courses', courses_path(page: @home_page) %></div>

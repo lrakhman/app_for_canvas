@@ -1,0 +1,7 @@
+<%= form_for :user, url: course_enrollments_path(:course_id) do |f| %>
+
+  <%= f.label :name %>:
+  <%= f.text_field :name %><br />
+
+  <%= f.submit 'Enroll'%>
+<% end %>
